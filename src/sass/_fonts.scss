@@ -1,0 +1,43 @@
+@font-face {
+font-family: 'Futura Light';
+src: url('/krya/src/fonts/FuturaPT-Light.eot');
+src: url('/krya/src/fonts/FuturaPT-Light.eot?#iefix') format('embedded-opentype'),
+url('/krya/src/fonts/FuturaPT-Light.woff') format('woff'),
+url('/krya/src/fonts/FuturaPT-Light.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'Futura Medium';
+src: url('/krya/src/fonts/FuturaPT-Medium.eot');
+src: url('/krya/src/fonts/FuturaPT-Medium.eot?#iefix') format('embedded-opentype'),
+url('/krya/src/fonts/FuturaPT-Medium.woff') format('woff'),
+url('/krya/src/fonts/FuturaPT-Medium.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'Futura Bold';
+src: url('/krya/src/fonts/FuturaPT-Bold.eot');
+src: url('/krya/src/fonts/FuturaPT-Bold.eot?#iefix') format('embedded-opentype'),
+url('/krya/src/fonts/FuturaPT-Bold.woff') format('woff'),
+url('/krya/src/fonts/FuturaPT-Bold.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+
+@mixin light {
+  font-family: 'Futura Light';
+  font-size: 20px;
+}
+
+@mixin medium {
+  font-family: 'Futura Medium';
+}
+
+
+@mixin bold {
+  font-family: 'Futura Bold';
+}
